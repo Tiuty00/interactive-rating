@@ -1,0 +1,222 @@
+
+a {
+      text-decoration: none;
+}
+
+body {
+      background-color: hsl(216, 12%, 8%);
+      font-family: 'Overpass', sans-serif;
+      margin: 0;
+}
+
+main {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      height: 100vh;
+}
+
+/* Box */
+
+.box {
+      background: radial-gradient( 98.96% 98.96% at 50% 0%, #232a34 0%, #181e27 100% );
+      width: 344px;
+      height: 349px;
+      border-radius: 30px;
+      padding: 2.3%;
+      color:hsl(216, 12%, 54%) ;
+}
+
+/* FIRST DIV  */
+
+.star {
+      background-color: hsl(210, 19%, 18%);
+      height: 50px;
+      width: 50px;
+      border-radius: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 9.5%;
+}
+
+.star:hover {
+      background-color: hsl(210, 15%, 25%);
+}
+
+.heading {
+      color: #fff ;
+      margin: 0;
+      font-size: 1.85rem;
+      letter-spacing: -1px;
+}
+
+.paragraph {
+      font-size: 0.9375rem;
+      margin: 3% 0 7% 0 ;
+      line-height: 1.55;
+}
+
+.button-group {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 8%;  
+}
+
+.circle {
+      background-color: hsl(210, 19%, 18%);
+      border-radius: 100%;
+      width: 50px;
+      height: 50px;
+      border: none;
+      color:hsl(216, 12%, 54%);
+      font-weight: 700;
+      font-family: 'Overpass', sans-serif;
+      font-size: 1rem;
+}
+
+.circle:hover {
+      cursor: pointer;
+      background-color: hsl(25, 97%, 53%);
+      color: #fff;
+      transition: .4s;
+}
+
+.circle:focus {
+      background-color: hsl(217, 12%, 63%);
+      color:#fff;
+}
+
+.btn {
+      width: 100%;
+      height: 50px;
+      background-color: hsl(25, 97%, 53%);
+      border: 1px solid #000;
+      border-radius: 50px;
+      color: #fff;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-size: 0.9rem;
+}
+
+.btn:hover {
+      cursor: pointer;
+      background-color: #fff;
+      color: hsl(25, 97%, 53%);
+      transition-duration: .4s;
+}
+
+/* SECOND DIV */
+
+#greatings {
+      text-align: center;
+}
+
+#greatings img {
+      margin: auto;
+      margin-bottom: 8%;
+}
+
+.rating {
+      width: 200px;
+      height: 30px;
+      background-color: hsl(210, 19%, 18%);
+      margin: auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: hsl(25, 97%, 53%);
+      border-radius: 50px;
+      margin-bottom: 12%;
+}
+
+.greatings-p {
+      font-size: 1rem;
+      letter-spacing: -0.3px;
+}
+
+.attribution {
+      font-size: 0.8rem;
+      margin-top: 2%;
+      color: hsl(216, 12%, 54%);
+}
+
+.attribution a {
+      color: #fff;
+}
+
+.attribution a:hover {
+      color: hsl(25, 97%, 53%);
+      transition: 0.4s;
+}
+
+/* Not visible */
+.invisible {
+      display: none;
+      transform: rotate(180deg);
+}
+
+.transform-big {
+      animation: transform-big linear 1s ;
+      animation-delay: 0.1s;
+}
+
+
+@keyframes transform-big { 
+      0% {
+            scale: 1;   
+      }
+      50% {
+            scale: 1.1;
+      }
+      100% {
+            scale: 1;
+      }
+}
+
+/* Media */
+
+@Media (max-width: 767px ) {
+
+      .box {
+            padding: 6%;
+            width: 285px;
+            height: 320px;
+            border-radius: 15px
+      }
+
+      .star {
+            background-color: hsl(210, 19%, 18%);
+            height: 40px;
+            width: 40px;
+            margin-bottom: 7%;
+      }
+
+      .heading {
+            font-size: 1.55rem;
+      }
+
+      .paragraph {
+            font-size: 0.9rem;
+      }
+
+      #vote .paragraph {
+            margin-bottom: 9.5%;
+      }
+
+      .circle {
+            width: 45px;
+            height: 45px;}
+
+       #greatings img {
+             margin-top: 1.5%;
+             margin-bottom: 9%;
+       }
+
+       .attribution {
+            font-size: 0.7rem;
+       }
+}
+      
