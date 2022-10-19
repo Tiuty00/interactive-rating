@@ -149,8 +149,7 @@ main {
       display: flex;
       align-items: center;
       justify-content: center;
-      margin-bottom: 12%;
-      margin: auto;
+      margin: auto auto 12%;
 }
 
 .greatings-p {
