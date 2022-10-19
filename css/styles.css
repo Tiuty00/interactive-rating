@@ -1,3 +1,4 @@
+/* HTML Tags */
 
 a {
       text-decoration: none;
@@ -10,11 +11,31 @@ body {
 }
 
 main {
-      display: flex;
-      justify-content: center;
-      flex-direction: column;
-      align-items: center;
       height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+}
+
+
+/* Animation */
+
+@keyframes transform-big { 
+      0% {
+            scale: 1;   
+      }
+      50% {
+            scale: 1.1;
+      }
+      100% {
+            scale: 1;
+      }
+}
+
+.transform-big {
+      animation: transform-big linear 1s ;
+      animation-delay: 0.1s;
 }
 
 /* Box */
@@ -24,16 +45,16 @@ main {
       width: 344px;
       height: 349px;
       border-radius: 30px;
-      padding: 2.3%;
       color:hsl(216, 12%, 54%) ;
+      padding: 2.3%;
 }
 
 /* FIRST DIV  */
 
 .star {
       background-color: hsl(210, 19%, 18%);
-      height: 50px;
       width: 50px;
+      height: 50px;
       border-radius: 100%;
       display: flex;
       justify-content: center;
@@ -47,15 +68,15 @@ main {
 
 .heading {
       color: #fff ;
-      margin: 0;
       font-size: 1.85rem;
       letter-spacing: -1px;
+      margin: 0;
 }
 
 .paragraph {
       font-size: 0.9375rem;
-      margin: 3% 0 7% 0 ;
       line-height: 1.55;
+      margin: 3% 0 7% 0 ;
 }
 
 .button-group {
@@ -66,13 +87,13 @@ main {
 
 .circle {
       background-color: hsl(210, 19%, 18%);
-      border-radius: 100%;
       width: 50px;
       height: 50px;
+      border-radius: 100%;
       border: none;
       color:hsl(216, 12%, 54%);
-      font-weight: 700;
       font-family: 'Overpass', sans-serif;
+      font-weight: 700;
       font-size: 1rem;
 }
 
@@ -92,8 +113,8 @@ main {
       width: 100%;
       height: 50px;
       background-color: hsl(25, 97%, 53%);
-      border: 1px solid #000;
       border-radius: 50px;
+      border: 1px solid #000;
       color: #fff;
       font-weight: 700;
       text-transform: uppercase;
@@ -123,13 +144,13 @@ main {
       width: 200px;
       height: 30px;
       background-color: hsl(210, 19%, 18%);
-      margin: auto;
+      color: hsl(25, 97%, 53%);
+      border-radius: 50px;
       display: flex;
       align-items: center;
       justify-content: center;
-      color: hsl(25, 97%, 53%);
-      border-radius: 50px;
       margin-bottom: 12%;
+      margin: auto;
 }
 
 .greatings-p {
@@ -137,10 +158,12 @@ main {
       letter-spacing: -0.3px;
 }
 
+/* ATTRIBUTION */
+
 .attribution {
       font-size: 0.8rem;
-      margin-top: 2%;
       color: hsl(216, 12%, 54%);
+      margin-top: 2%;
 }
 
 .attribution a {
@@ -153,27 +176,9 @@ main {
 }
 
 /* Not visible */
+
 .invisible {
       display: none;
-      transform: rotate(180deg);
-}
-
-.transform-big {
-      animation: transform-big linear 1s ;
-      animation-delay: 0.1s;
-}
-
-
-@keyframes transform-big { 
-      0% {
-            scale: 1;   
-      }
-      50% {
-            scale: 1.1;
-      }
-      100% {
-            scale: 1;
-      }
 }
 
 /* Media */
@@ -181,16 +186,16 @@ main {
 @Media (max-width: 767px ) {
 
       .box {
-            padding: 6%;
             width: 285px;
             height: 320px;
-            border-radius: 15px
+            border-radius: 15px;
+            padding: 6%;
       }
 
       .star {
             background-color: hsl(210, 19%, 18%);
-            height: 40px;
             width: 40px;
+            height: 40px;
             margin-bottom: 7%;
       }
 
@@ -208,7 +213,8 @@ main {
 
       .circle {
             width: 45px;
-            height: 45px;}
+            height: 45px;
+      }
 
        #greatings img {
              margin-top: 1.5%;
