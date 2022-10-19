@@ -31,12 +31,12 @@ desktop view (vote page and thanks page):
 <img src=https://github.com/Tiuty00/interactive-rating/blob/main/images/desktop-thanks-screenshot.png/>
 
 mobile view:
-<img src=https://github.com/Tiuty00/interactive-rating/blob/main/imagesmobile-screenshot.png/ width="400"/>
+<img src=https://github.com/Tiuty00/interactive-rating/blob/main/images/mobile-screenshot.png/ width="400"/>
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Tiuty00/interactive-rating)
-- Live Site URL: [Add live site URL here](https://tiuty00.github.io/interactive-rating/)
+- Solution URL: [GitHub Reposiatoey](https://github.com/Tiuty00/interactive-rating)
+- Live Site URL: [Live Page](https://tiuty00.github.io/interactive-rating/)
 
 ## My process
 
